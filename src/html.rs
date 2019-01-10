@@ -219,7 +219,7 @@ impl BareTag {
     }
     impl_attr_all!();
 }
-
+/*
 impl<A: Render + 'static> FnOnce<(A,)> for Tag {
     type Output = FinalTag<A>;
     extern "rust-call" fn call_once(self, args: (A,)) -> Self::Output {
@@ -241,6 +241,7 @@ impl<A: Render + 'static> FnOnce<(A,)> for BareTag {
         }
     }
 }
+*/
 
 /// Implement a Render function wrapping in a simple tag
 macro_rules! impl_tag {

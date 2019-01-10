@@ -94,8 +94,6 @@
 //! # Where to start
 //!
 //! You are most probably interested in reading `html` module documentation
-#![feature(unboxed_closures)]
-#![feature(fn_traits)]
 use std::fmt::Arguments;
 use std::{fmt, io};
 
